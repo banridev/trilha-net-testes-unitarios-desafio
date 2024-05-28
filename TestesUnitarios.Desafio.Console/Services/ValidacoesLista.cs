@@ -1,4 +1,3 @@
-
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesLista
@@ -29,11 +28,6 @@ namespace TestesUnitarios.Desafio.Console.Services
         public int RetornarMenorNumeroLista(List<int> lista)
         {
             return lista.Min();
-        }
-
-        public object MultiplicarNumerosLista(List<int> lista, List<int> resultadoEsperado)
-        {
-            throw new NotImplementedException();
         }
     }
 }
